@@ -26,4 +26,4 @@ def hello():
     return html.format(name=os.getenv("NAME", "there"), img_url=img_url, hostname=socket.gethostname(),filecontent=json.dumps(clazes),creden=json.dumps(cred))
 
 if __name__ == "__main__":
-    app.run(host='127.0.0.1', port=80)
+    app.run(host='0.0.0.0', port=6111)

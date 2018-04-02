@@ -32,4 +32,4 @@ spec:
       - name: service-bind-volume
         secret:
           defaultMode: 420
-          secretName: binding-arpittestvisualrecognition-m2
+          secretName: binding-arpitvisualrecognition
